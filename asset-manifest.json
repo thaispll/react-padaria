@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-padaria/static/css/main.e17cc279.css",
+    "main.js": "/react-padaria/static/js/main.550d140b.js",
+    "static/js/453.457dbc16.chunk.js": "/react-padaria/static/js/453.457dbc16.chunk.js",
+    "static/media/padaria.png": "/react-padaria/static/media/padaria.4c9fdc19c278cbf0ba12.png",
+    "index.html": "/react-padaria/index.html",
+    "main.e17cc279.css.map": "/react-padaria/static/css/main.e17cc279.css.map",
+    "main.550d140b.js.map": "/react-padaria/static/js/main.550d140b.js.map",
+    "453.457dbc16.chunk.js.map": "/react-padaria/static/js/453.457dbc16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e17cc279.css",
+    "static/js/main.550d140b.js"
+  ]
+}
