@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/react-padaria/static/css/main.e17cc279.css",
-    "main.js": "/react-padaria/static/js/main.550d140b.js",
+    "main.css": "/react-padaria/static/css/main.680db901.css",
+    "main.js": "/react-padaria/static/js/main.cb1cbc58.js",
     "static/js/453.457dbc16.chunk.js": "/react-padaria/static/js/453.457dbc16.chunk.js",
     "static/media/padaria.png": "/react-padaria/static/media/padaria.4c9fdc19c278cbf0ba12.png",
+    "static/media/chocolate.jpg": "/react-padaria/static/media/chocolate.05604b487ab8b81457bd.jpg",
+    "static/media/pao.jpg": "/react-padaria/static/media/pao.5e96e86e0bcf52fc53ee.jpg",
+    "static/media/ovos-mexidos.jpg": "/react-padaria/static/media/ovos-mexidos.4868da3b470db846691a.jpg",
+    "static/media/bolo.jpg": "/react-padaria/static/media/bolo.3236137eb36dc756300d.jpg",
     "index.html": "/react-padaria/index.html",
-    "main.e17cc279.css.map": "/react-padaria/static/css/main.e17cc279.css.map",
-    "main.550d140b.js.map": "/react-padaria/static/js/main.550d140b.js.map",
+    "main.680db901.css.map": "/react-padaria/static/css/main.680db901.css.map",
+    "main.cb1cbc58.js.map": "/react-padaria/static/js/main.cb1cbc58.js.map",
     "453.457dbc16.chunk.js.map": "/react-padaria/static/js/453.457dbc16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e17cc279.css",
-    "static/js/main.550d140b.js"
+    "static/css/main.680db901.css",
+    "static/js/main.cb1cbc58.js"
   ]
 }
