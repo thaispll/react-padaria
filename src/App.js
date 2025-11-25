@@ -1,5 +1,18 @@
 import './App.css';
 
+// 1. IMPORTAÇÃO DIRETA DE TODAS AS IMAGENS
+// Assumindo que você moveu todas as imagens para a pasta 'src/assets/'
+import usuarioIcone from './assets/usuario.png';
+import carrinhoIcone from './assets/carrinho.png';
+import paoImagem from './assets/pao.jpg';
+import boloImagem from './assets/bolo.jpg';
+import chocolateImagem from './assets/chocolate.jpg';
+import ovosMexidosImagem from './assets/ovos-mexidos.jpg';
+import setaIcone from './assets/seta.png';
+import lupa2Icone from './assets/lupa(2).png';
+import lupaIcone from './assets/lupa.png';
+
+
 function App() {
   return (
     <div className="container">
@@ -8,7 +21,7 @@ function App() {
       <div className="header">
         <img
           className="icone"
-          src={process.env.PUBLIC_URL + "/usuario.png"}
+          src={usuarioIcone} // Usando a variável importada
           alt="Usuário"
         />
 
@@ -16,45 +29,51 @@ function App() {
 
         <img
           className="icone"
-          src={process.env.PUBLIC_URL + "/carrinho.png"}
+          src={carrinhoIcone} // Usando a variável importada
           alt="Carrinho"
         />
       </div>
 
+      {/* IMAGEM PRINCIPAL DA PADARIA REMOVIDA: AGORA É APENAS BACKGROUND NO CSS */}
+      
       {/* PROMOÇÕES */}
       <p className="titulo-secao">PROMOÇÕES DO DIA</p>
 
       <div className="promocoes">
         <div className="card">
-          <img src={process.env.PUBLIC_URL + "/pao.jpg"} alt="Pão fresquinho" />
-          <p>PÃO FRANCÊS <br /> R$0,65</p>
+          <img src={paoImagem} alt="Pão fresquinho" />
+          <p>PÃO FRANCÊS   
+ R$0,65</p>
         </div>
         <div className="card">
-          <img src={process.env.PUBLIC_URL + "/bolo.jpg"} alt="Bolo fresquinho" />
-          <p>BOLO DE FUBÁ <br /> R$7,50</p>
+          <img src={boloImagem} alt="Bolo fresquinho" />
+          <p>BOLO DE FUBÁ   
+ R$7,50</p>
         </div>
         <div className="card">
-          <img src={process.env.PUBLIC_URL + "/chocolate.jpg"} alt="Chocolate" />
-          <p>CHOCOLATE <br /> R$9,50</p>
+          <img src={chocolateImagem} alt="Chocolate" />
+          <p>CHOCOLATE   
+ R$9,50</p>
         </div>
         <div className="card">
-          <img src={process.env.PUBLIC_URL + "/ovos-mexidos.jpg"} alt="ovos" />
-          <p>OVOS-MEXIDOS <br /> R$11,50</p>
+          <img src={ovosMexidosImagem} alt="ovos" />
+          <p>OVOS-MEXIDOS   
+ R$11,50</p>
         </div>
       </div>
 
       <hr className="linha" />
-      <img className="seta" src={process.env.PUBLIC_URL + "/seta.png"} alt="Seta" />
+      <img className="seta" src={setaIcone} alt="Seta" />
 
       {/* BARRA DE PESQUISA */}
       <div className="search-container">
-        <img className="lupa" src={process.env.PUBLIC_URL + "/lupa(2).png"} alt="Buscar" />
+        <img className="lupa" src={lupa2Icone} alt="Buscar" />
         <input
           className="pesquisa"
           type="text"
           placeholder="Digite para buscar..."
         />
-        <img className="lupa" src={process.env.PUBLIC_URL + "/lupa.png"} alt="Buscar" />
+        <img className="lupa" src={lupaIcone} alt="Buscar" />
       </div>
 
     </div>
